@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
 
-cin >> a >> b >> c;
+    float a, b, c = 0;
+    cin >> a >> b >> c;
 
-//Qui va scritto il codice per eseguire i calcoli richiesti
+    cout << (a*b)/2 << endl << a*a << endl << a*b << ((a+b)*c)/2 << endl;
 
-
+    return 0;
 }
